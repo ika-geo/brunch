@@ -81,6 +81,13 @@ footer .wrapper{
 .footer__menuLink{
     margin-bottom: 20px;
     margin-right: 30px;
+    color: #ad6c12;
+    transition-duration: .3s;
+}
+
+.footer__menuLink:hover{
+    color: #eea054;
+    transition-duration: .3s;
 }
 
 .footer__text{

@@ -1,7 +1,5 @@
 
 // burgerMenu
-
-
 let $menuBtn = document.querySelector(".menuBtn")
 let $headerMenu = document.querySelector(".header__menu")
 
@@ -19,7 +17,7 @@ document.querySelector('.form___dateInput').min = new Date().toISOString().slice
 
 
 
-// readmore
+// readMore
 let readMoreDiscover = document.querySelectorAll(".discoverMenu__itemReadMore");
 
 readMoreDiscover.forEach(function (elem){
