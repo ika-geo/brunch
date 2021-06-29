@@ -1,0 +1,166 @@
+.discoverMenu{
+    background-color: #d4d8d9;
+    padding-top: 45px;
+    padding-bottom: 105px;
+}
+
+
+@media screen and (max-width: 768px){
+    .discoverMenu{
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .discoverMenu{
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+
+.discoverMenu__textblock{
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.discoverMenu__title{
+    font-size: 165px;
+    font-family: "Cookie";
+    color: rgb(48, 71, 81);
+}
+
+
+@media screen and (max-width: 768px){
+    .discoverMenu__title{
+        font-size: 140px;
+    }
+
+}
+
+
+@media screen and (max-width: 425px){
+    .discoverMenu__title{
+        font-size: 100px;
+    }
+
+}
+
+.discoverMenu__text{
+    font-size: 62px;
+    font-family: "Raleway";
+    color: rgb(173, 108, 18);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+    .discoverMenu__text{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .discoverMenu__text{
+        font-size: 40px;
+    }
+}
+
+
+.discoverMenu__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .discoverMenu__menu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.discoverMenu__item{
+    max-width: 340px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 340px){
+    .discoverMenu__item{
+        max-width: 100%;
+    }
+
+}
+
+
+.discoverMenu__item:hover{
+    box-shadow: 0 11px 20px 2px;
+}
+
+@media screen and (max-width: 768px){
+    .discoverMenu__item:hover{
+        box-shadow: none;
+    }
+}
+
+.discoverMenu__itemTextBlock{
+    background-color: white;
+    padding: 25px;
+}
+
+
+.discoverMenu__item:not(:last-child){
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 768px){
+    .discoverMenu__item:not(:last-child){
+        margin-right: unset;
+    }
+}
+
+
+.discoverMenu__itemImg{
+    max-width: 100%;
+}
+
+.discoverMenu__itemTitle {
+    font-size: 22px;
+    font-family: "Raleway";
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.discoverMenu__itemText{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(79, 78, 78);
+    line-height: 1.2;
+    max-height: 40px;
+    max-width: 90%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.discoverMenu__itemReadMore {
+    font-size: 20px;
+    width: fit-content;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    border-bottom: 7px solid rgb(255, 153, 43);
+    cursor: pointer;
+}
+
+
+.discoverMenu__readMore{
+    max-height: unset;
+}

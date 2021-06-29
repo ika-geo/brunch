@@ -1,0 +1,175 @@
+.discover{
+    background: url("../img/discover/back.png") no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+}
+
+@media screen and (max-width: 768px){
+    .discover{
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .discover{
+        padding-top: 150px;
+    }
+}
+
+
+.discover__block{
+    background-color: rgba(255, 255, 255, 0.82);
+    padding-top: 45px;
+}
+
+@media screen and (max-width: 768px){
+    .discover__block{
+        padding-top: 30px;
+    }
+}
+
+
+.discover__top{
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+
+.discover__title{
+    font-size: 140px;
+    font-family: "Cookie";
+    color: rgb(48, 71, 81);
+}
+
+
+@media screen and (max-width: 768px){
+    .discover__title{
+        font-size: 115px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .discover__title{
+        font-size: 80px;
+    }
+}
+
+
+.discover__text {
+    font-size: 62px;
+    font-family: "Raleway";
+    color: rgb(173, 108, 18);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px){
+    .discover__text {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .discover__text {
+        font-size: 35px;
+    }
+}
+
+
+.discover__items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px){
+    .discover__items{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+
+
+.discover__item{
+    display: flex;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .discover__item{
+        width: 100%;
+    }
+}
+
+
+
+.discover__item:nth-child(even){
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px){
+    .discover__item:nth-child(even){
+        justify-content: flex-start;
+    }
+}
+
+.discover__item:nth-child(odd){
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .discover__item:nth-child{
+        padding-right: 10px;
+    }
+}
+
+.discover__itemImg{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 81px;
+    height: 81px;
+    min-width: 81px;
+    min-height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+    .discover__itemImg{
+        margin-right: 25px;
+    }
+}
+
+
+
+.discover__itemTitle {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(48, 71, 81);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+
+.discover__itemText {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(48, 71, 81);
+    line-height: 1.2;
+    max-width: 320px;
+}
+
+
+@media screen and (max-width: 768px){
+    .discover__itemText {
+        max-width: 100%;
+    }
+}

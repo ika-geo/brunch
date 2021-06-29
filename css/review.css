@@ -1,0 +1,99 @@
+.review{
+    background-color: #2a3b40;
+}
+
+.review__block{
+    text-align: center;
+
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+
+.review__title{
+    font-size: 83px;
+    font-family: "Raleway";
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+.review__text{
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.778;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.review__author{
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.review__socialMedia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review__socialMedia a{
+    min-height: 35px;
+    min-width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    transition-duration: 0.2s;
+}
+
+.review a:hover{
+    transition-duration: 0.2s;
+}
+
+.review__socialMedia a:not(:last-child){
+    margin-right: 15px;
+}
+
+.review__socialMedia i{
+    color: #2a3b40;
+}
+
+.review .facebook:hover{
+   background-color: #1877f2;
+}
+
+.review .twitter:hover{
+    background-color: #1da1f2;
+}
+
+.review .instagram:hover{
+    background: linear-gradient(123deg, rgba(73,70,195,1) 10%, rgba(245,199,94,1) 50%, rgba(214,39,113,1) 90%);
+}
+
+.review .pinterest:hover{
+    background-color: #df0022;
+}
+
+.review .googlePlus:hover{
+    background-color: #de5449;
+}
+
+@media screen and (max-width: 425px){
+    .review a:hover{
+        background-color: white!important;
+    }
+}
+
+
+
+
+

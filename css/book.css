@@ -1,0 +1,79 @@
+.book{
+    background-color: #2a3b40;
+}
+
+.book .wrapper{
+    padding: 20px 0 40px;
+}
+
+
+.book__img img{
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+}
+
+.book__title{
+    font-size: 165px;
+    font-family: "Cookie";
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media screen and (max-height: 768px) {
+    .book__title{
+        font-size: 100px;
+    }
+}
+
+
+
+.book__formBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-height: 768px) {
+    .book__formBlock{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.book__form input {
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 234px;
+    height: 30px;
+    background-color: #2a3b40;
+    color: white;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+
+
+.book__form {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.book__form p {
+    margin-bottom: 10px;
+}
+
+.form__submit{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__submitInput{
+    cursor: pointer;
+}
+

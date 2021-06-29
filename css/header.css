@@ -1,0 +1,141 @@
+header{
+    padding: 62px 0 220px 0;
+    background: url("../img/header/headerBack.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 220px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__top{
+        margin-bottom: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__top{
+        margin-bottom: 130px;
+    }
+}
+
+.header__logo{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.header__menuList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__logo a, .header__menuLink {
+    font-size: 29px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+
+.header__logo a:hover, .header__menuLink:hover {
+    color: #b1832e;
+    transition-duration: 0.2s;
+}
+
+
+
+.header__menuList li:not(:last-child){
+    margin-right: 45px;
+}
+
+.header__bottom {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.82);
+    width: 750px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header__bottom {
+        width: 95%;
+    }
+}
+
+
+.header__title {
+    font-size: 138px;
+    font-family: "Cookie";
+    color: rgb(44, 58, 66);
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-size: 100px;
+    }
+
+}
+
+
+.header__text {
+    font-size: 62px;
+    font-family: "Raleway";
+    color: rgb(173, 108, 18);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__text {
+        font-size: 52px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .header__text {
+        font-size: 40px;
+    }
+}
+
+.header__readMore{
+    font-size: 31px;
+    font-family: "Raleway";
+    color: rgb(38, 54, 58);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 267px;
+    max-width: 100%;
+    height: 60px;
+    z-index: 312;
+    transition-duration: 0.2s;
+}
+
+.header__readMore:hover{
+    box-shadow: 0 0 15px 2px #794700;
+    transition-duration: 0.2s;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .header__readMore{
+        font-size: 25px;
+        box-shadow: none;
+    }
+}
