@@ -31,20 +31,22 @@ readMoreDiscover.forEach(function (elem){
 
 
 window.addEventListener("scroll", function (){
-    if (window.innerWidth>425){
         if (window.scrollY>50){
+            if (window.innerWidth>425){
             document.querySelector(".header__top").classList.add("fixed")
+            }
         }
         else {
             document.querySelector(".header__top").classList.remove("fixed")
         }
-    }
-    else {
-        document.querySelector(".header__top").classList.remove("fixed")
-    }
-
 })
 
+
+window.addEventListener("resize", function (){
+    if (window.innerWidth<=425){
+        document.querySelector(".header__top").classList.remove("fixed")
+    }
+})
 
 
 
