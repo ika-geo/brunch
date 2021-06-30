@@ -31,6 +31,10 @@
         margin-bottom: 0;
     }
 
+    header{
+        padding-top: 17px;
+    }
+
     .header__menu{
         display: none;
     }

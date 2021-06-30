@@ -25,3 +25,26 @@ readMoreDiscover.forEach(function (elem){
         this.previousElementSibling.classList.toggle("discoverMenu__readMore")
     }
 })
+
+
+// fixed header on scroll
+
+
+window.addEventListener("scroll", function (){
+    if (window.innerWidth>425){
+        if (window.scrollY>50){
+            document.querySelector(".header__top").classList.add("fixed")
+        }
+        else {
+            document.querySelector(".header__top").classList.remove("fixed")
+        }
+    }
+    else {
+        document.querySelector(".header__top").classList.remove("fixed")
+    }
+
+})
+
+
+
+

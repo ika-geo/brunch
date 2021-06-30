@@ -5,12 +5,31 @@ header{
     background-attachment: fixed;
 }
 
+
+
 .header__top{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 220px;
+    transition-duration: .2s;
 }
+
+/*header fixed*/
+
+
+.header__top.fixed{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    padding: 15px 10px 0;
+    background-color: #3e5b66;
+    z-index: 1000;
+    transition-duration: .2s;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .header__top{
@@ -49,13 +68,13 @@ header{
 }
 
 
-
 .header__menuList li:not(:last-child){
     margin-right: 45px;
 }
 
+
 .header__bottom {
-    margin: 0 auto;
+    margin: 220px auto 0;
     background-color: rgba(255, 255, 255, 0.82);
     width: 750px;
     padding-top: 40px;
