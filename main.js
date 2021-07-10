@@ -29,22 +29,23 @@ readMoreDiscover.forEach(function (elem){
 
 // fixed header on scroll
 
+let $headerTop = document.querySelector(".header__top")
 
 window.addEventListener("scroll", function (){
-        if (window.scrollY>50){
-            if (window.innerWidth>425){
-            document.querySelector(".header__top").classList.add("fixed")
-            }
+    if (window.scrollY>50){
+        if (window.innerWidth>425){
+            $headerTop.classList.add("fixed")
         }
-        else {
-            document.querySelector(".header__top").classList.remove("fixed")
-        }
+    }
+    else {
+        $headerTop.classList.remove("fixed")
+    }
 })
 
 
 window.addEventListener("resize", function (){
     if (window.innerWidth<=425){
-        document.querySelector(".header__top").classList.remove("fixed")
+        $headerTop.classList.remove("fixed")
     }
 })
 
