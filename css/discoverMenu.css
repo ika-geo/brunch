@@ -151,6 +151,7 @@
 .discoverMenu__itemReadMore {
     font-size: 20px;
     width: fit-content;
+    width: -moz-fit-content;
     padding-bottom: 5px;
     text-transform: uppercase;
     font-family: "Raleway";
